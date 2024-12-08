@@ -41,6 +41,7 @@ public class TemperatureConverter{
             int continueOption = getActiveStatus(scanner);
             if (continueOption == 2) {
                 stop = true; // Exit the App
+                System.out.println("Good bye ");
 
             }
         }
